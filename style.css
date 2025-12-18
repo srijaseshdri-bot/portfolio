@@ -389,8 +389,8 @@ body{
     overflow: hidden;
     display: block;
     transition: transform 0.5s;
-    width:570px;
-    height: 570px;
+    width:480px;
+    height: 480px;
 }
 
 .layer{
