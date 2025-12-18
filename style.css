@@ -153,12 +153,19 @@ body{
     align-items: center;
     gap: 1.5rem;
 }
+.about-img {
+    position: absolute;
+    left: 60px;          
+    top: 50%;
+    transform: translateY(-50%);
+}
 .about-img img{
-    padding-bottom: 20%;
-    max-width: 200px;
-    height: auto;
-    width: 50%;
-    border-radius: 10px;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;   
+    object-fit: cover;
+    border: 4px solid #0ef;
+    box-shadow: 0 0 25px #0ef
 }
 .about-text h2{
     font-size: 60px;
