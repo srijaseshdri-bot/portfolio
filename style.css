@@ -156,8 +156,7 @@ body{
 .about-img {
     position: relative;
     left: 60px;          
-    top: 50%;
-    transform: translateY(-50%);
+    transform: translateX(-50%);
 }
 .about-img img{
     width: 320px;
