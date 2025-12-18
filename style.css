@@ -154,7 +154,7 @@ body{
     gap: 1.5rem;
 }
 .about-img {
-    position: absolute;
+    position: relative;
     left: 60px;          
     top: 50%;
     transform: translateY(-50%);
